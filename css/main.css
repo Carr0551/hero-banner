@@ -10,6 +10,7 @@ html {
 .banner {
   overflow: hidden;
   border: 1px solid;
+	position: relative;
 }
 
 .img-flex {
@@ -20,9 +21,15 @@ html {
 .card-title {
   margin: 0;
   padding: .5rem 1rem;
-  position: absolute;
+  color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	font-size: 4rem; 
+}
+
+.card-body {
+	position: absolute;
   bottom: 0;
   left 0;
   width: 100%;
-  colour: rgba(0, 0, 0, 0.5);
 }
