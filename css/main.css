@@ -1,0 +1,28 @@
+html {
+	box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.banner {
+  overflow: hidden;
+  border: 1px solid;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.card-title {
+  margin: 0;
+  padding: .5rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left 0;
+  width: 100%;
+  colour: rgba(0, 0, 0, 0.5);
+}
